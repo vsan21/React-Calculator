@@ -13,7 +13,7 @@ export class Display extends Component {
   //ES5 regular function: does NOT auto-bind "this"
   changeDisplay(newValue){
     //test to see if the newValue(current button value) is a number OR '.' (decimal)
-    if(/[0-9]|'.'/.test(newValue)) {
+    if(/[0-9]/.test(newValue)) {
       //combines current state with current button value (i.e. 1 and 2 --> 12)
       this.setState({value: this.state.value.concat(newValue)})
       //clear when you click 'C'
