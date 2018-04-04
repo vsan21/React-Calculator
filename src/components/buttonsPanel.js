@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './buttonsPanel.css';
 
 export class ButtonsPanel extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   //New ES6 arrow-function: auto-binding of "this"
   handleChange = (e) => {
