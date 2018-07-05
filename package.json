@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://vsan21.github.io/React-Calculator",
+  "engines": {
+    "node": "10.1.0"
+  },
   "dependencies": {
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
