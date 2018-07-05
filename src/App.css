@@ -1,4 +1,6 @@
 body {
+  width: 100vw;
+  height: 100vh;
   background-image: url("https://static1.squarespace.com/static/5594a529e4b0ff871f61e486/t/55a28152e4b0b8ef82d6cf68/1436713300459/unicorn+background+squarespace.png?format=2500w");
-  background-repeat: no-repeat;
+  background-size: cover;
 }

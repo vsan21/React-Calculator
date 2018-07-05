@@ -3,6 +3,7 @@ import './buttonsPanel.css';
 
 export class ButtonsPanel extends Component {
 
+
   //New ES6 arrow-function: auto-binding of "this"
   handleChange = (e) => {
     //equals the value in the <button> field
@@ -12,7 +13,7 @@ export class ButtonsPanel extends Component {
   }
 
   clearChange = () => {
-    this.props.onClick(null);
+    this.props.clearChange()
   }
 
   render() {
