@@ -1,6 +1,6 @@
 # React Calculator
 
-In this project, I used create-react-app to generate my application and then built off of its basic boilerplate. 
+This calculator was previous built with jQuery (https://github.com/vsan21/jQuery-Calculator), and has been improved and converted to React.
 
 ### Components:
 1. Display - describes what I want to show on the browser (this also includes updating). 
